@@ -14,13 +14,13 @@
   font-variation-settings: "wdth" 100;
 }
 
+
+/* Style for header section */
 .header{
     height: 658px;            
     background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
 
 nav{
@@ -65,6 +65,8 @@ nav ul li {
   margin-top: 37px;
 }
 
+
+/* style for main section: first div */
 .launch{
     display: flex;
     align-items: center;
@@ -95,6 +97,7 @@ nav ul li {
     border-radius: 48px;
 }
 
+/* Style for main section: second  div */
 .productive{
     margin: 116px 159px 0px 159px;
     background-color: rgba(78, 71, 255, 0.1);
@@ -108,14 +111,13 @@ nav ul li {
     color: #252432;
     text-align: center;
     padding: 50px 142px 0px 142px;
+    word-spacing: 10px;
 }
 
 .productive-data{
     display: flex;
     justify-content: space-between;
-    margin: 40px 300px 50px 300px;
-    /* align-items: center; */
-
+    margin: 40px 250px 50px 250px;
 }
 
 .data{
@@ -132,4 +134,87 @@ nav ul li {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 0px 0px 50px 0px;
+}
+
+/* style for main section: third div */
+.text-center{
+    text-align: center;
+}
+
+.review{
+    margin: 137px 159px 0px 190px;
+}
+
+.review-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;   
+}
+
+.review-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.riv-content{
+    margin: 24px;
+}
+
+.icon{
+    margin: 24px 226.67px 24px 24px;
+
+}
+
+.review-box1{
+    background-color: #F5F8FF;
+    height: 243px;
+    width: 366px;
+    margin: 50px 20px 0px 0px;
+    border-radius: 10px;
+}
+
+.review-box2{
+    background-color: #F5F8FF;
+    height: 243px;
+    width: 366px;
+    margin: 50px 20px 0px 20px;
+    border-radius: 10px;
+}
+
+.review-box3{
+    background-color: #F5F8FF;
+    height: 243px;
+    width: 366px;
+    margin: 50px 0px 0px 20px;
+    border-radius: 10px;
+}
+
+.avatar{
+    display: flex;
+}
+
+.avatar-image{
+    width: 40px;         
+    height: 40px;        
+    border-radius: 50%;   
+    object-fit: cover;   
+    margin: 10px 6px 30px 24px;
+}
+
+.avatar-text{
+    margin: 10px 24px 24px 12px;
+}
+
+.avatar-text h4,
+.avatar-text p {
+  margin: 0;
+}
+
+.avatar-text h4 {
+    color: #757575;
+}
+.avatar-text p{
+    color: #B3B3B3;
 }
