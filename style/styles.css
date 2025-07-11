@@ -231,11 +231,9 @@ nav ul li {
 /* style for main section: 4th div */
 .form{
     display: flex;
-    /* background-color:#F5F8FF ; */
     margin: 92.23px 150px 0px 150px ;
     align-items: center;
-    /* height: 632px;
-    width: 1140px; */
+
 }
 
 .form-title{
@@ -296,7 +294,6 @@ nav ul li {
 footer{
     background-color: #F5F8FF;
     margin: 50px 0px 0px 0px;
-    /* width: 1440px; */
     height: 428px;
     background-size: cover;
 }
