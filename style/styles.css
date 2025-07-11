@@ -1,5 +1,5 @@
 /* Inter Font */
-.inter-logo {
+.inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -80,17 +80,56 @@ nav ul li {
 
 .launch-title{
     font-weight: bold;
-    font-size: 42;
+    font-size: 42px;
     color: #252432;
 
 }
 
 .launch-description{
     font-weight: 400;
-    font-size: 24;
+    font-size: 24px;
     color: rgba(37, 36, 50, 0.5);;
 }
 
 .rounded-img{
     border-radius: 48px;
+}
+
+.productive{
+    margin: 116px 159px 0px 159px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+
+}
+
+.productive-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+    padding: 50px 142px 0px 142px;
+}
+
+.productive-data{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 300px 50px 300px;
+    /* align-items: center; */
+
+}
+
+.data{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    text-align: center;
+    margin: 0;
+}
+
+.data-info{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0px 0px 50px 0px;
 }
