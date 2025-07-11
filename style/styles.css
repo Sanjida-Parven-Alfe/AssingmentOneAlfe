@@ -14,65 +14,53 @@
   font-variation-settings: "wdth" 100;
 }
 
-/* Nav Style */
+.header{
+    height: 658px;            
+    background-image: url(../images/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0px 150px;
 }
 
-.navigation{
-    margin: 0px 150px 547px 150px;
-}
-
-.nav-title{
+.logo-font{
     font-weight: 900;
     font-size: 34px;
+    color: #4E47FF;
 }
 
-.header{
-    background-image: url('../images/Hero-bg.png');
-    /* background-repeat: no-repeat; */
+nav ul li {
+    list-style: none;
 }
 
 .btn-primary{
     background-color: #4E47FF;
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: bold;
     color: white;
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
 }
 
-/* for banner style */
 .banner-content{
-    font-weight: 700;
-    font-size: 65px;
     color: #252432;
-    text-align: center;
-    
+    font-weight: bold;
+    font-size: 65px;
+    margin: 0;
 }
 
 .banner{
-    margin: 309px 267.5px 152px ;
+    text-align: center;
+    margin: 158px 267.5px 152px ;
 }
 
-/* footer navigation bars */
-nav ul {
-    display: flex;
-}
-.footer-nav{
-    color: #8987A1;
-}
-
-nav ul li {
-    list-style: none;
-    margin-right: 48px;
-}
-
-nav li a{
-    text-decoration: none;
-
+.banner button {
+  margin-top: 37px;
 }
