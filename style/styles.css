@@ -64,3 +64,33 @@ nav ul li {
 .banner button {
   margin-top: 37px;
 }
+
+.launch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 159px 116px 159px;
+}
+
+.launch-content{
+    max-width: 517px;
+    
+
+}
+
+.launch-title{
+    font-weight: bold;
+    font-size: 42;
+    color: #252432;
+
+}
+
+.launch-description{
+    font-weight: 400;
+    font-size: 24;
+    color: rgba(37, 36, 50, 0.5);;
+}
+
+.rounded-img{
+    border-radius: 48px;
+}
